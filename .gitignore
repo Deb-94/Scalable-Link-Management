@@ -1,0 +1,28 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+
+# Build output
+dist/
+build/
+coverage/
+
+# Logs
+*.log
+build_log*.txt
+frontend_build_log.txt
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
